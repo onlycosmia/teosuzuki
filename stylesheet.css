@@ -26,6 +26,8 @@ body, h1, p {
 
 .header img {
   display: inline-flex;
+  max-width: 150px;
+  vertical-align: middle;
 }
 
 .content {
@@ -39,6 +41,7 @@ body, h1, p {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  max-width: 400px;
 }
 
 .column {
