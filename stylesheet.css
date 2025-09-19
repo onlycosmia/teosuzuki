@@ -1,0 +1,51 @@
+body, h1, p {
+  font-family: Helvetica;
+}
+
+.header {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.header a {
+  display: inline-flex;
+  padding: 16px;
+  font-size: 18px;
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+.header h1 {
+  display: inline-flex;
+  padding: 16px;
+  font-size: 48px;
+}
+
+.header img {
+  display: inline-flex;
+}
+
+.content {
+  width: 90%;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.column {
+  flex: 33%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
