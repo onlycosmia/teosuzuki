@@ -1,11 +1,12 @@
 <html>
   <head>
     <style>
-      .comic img {
+      .imgflex img {
         display:block;
         max-width:700px;
         padding:16px;
         width:80%;
+        margin-left:15%;
       }
     </style>
     <link rel="stylesheet" href="stylesheet.css">
@@ -21,7 +22,12 @@
       <a href="press.html">press</a>
       <a href="contact.html">contact</a>
     </div>
-    <div class="comic" style="width:60%;margin-left:auto;margin-right:auto">
-      <p>A short introductory comic Suzuki made to welcome in a newly found following after the success of <i>Jess is Getting Married</i>.
-      <img src="Pinned Tweet/PT_1.png">
-      <img src="Pinned Tweet/PT_2.png"></p>
+    <div class="imgflex">
+      <div class="imgflex">
+        <p><img style="display:inline-flex; float:left;" src="Pinned Tweet/PT_1.png"></p>
+        <p style="overflow:auto; padding:10px 150px 0px 100px">A short introductory comic Suzuki made to welcome in a newly found following after the success of <i>Jess is Getting Married</i>.
+      </div>
+      <img src="Pinned Tweet/PT_2.png">
+    </div>
+  </body>
+</html>
